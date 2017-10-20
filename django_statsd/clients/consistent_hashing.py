@@ -1,1 +1,1 @@
-from statsd.client import ConsistentHashingStatsClient
+from statsd.client import ConsistentHashingStatsClient as StatsClient
