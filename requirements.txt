@@ -1,4 +1,4 @@
 mock
 nose
-statsd==3.2.1.4
+statsd==3.2.1.5
 django<1.7
