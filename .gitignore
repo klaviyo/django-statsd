@@ -4,3 +4,4 @@ dist
 mydatabase
 .tox
 django_statsd_mozilla.egg-info
+.idea
