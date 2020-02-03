@@ -19,7 +19,7 @@ def get(name, default):
 
 def get_client():
     client = get('STATSD_CLIENT', 'statsd.client')
-    host = get('STATSD_HOST', 'localhost')
+    host = get('STATSD_HOST', ('localhost',))
 # This is causing problems with statsd
 # gaierror ([Errno -9] Address family for hostname not supported)
 # TODO: figure out what to do here.
